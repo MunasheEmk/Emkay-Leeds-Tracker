@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Emkay Leads Tracker",
+    "author": "Munashe Kaundikiza",
+    "description": "This extension allows to save input, important tabs preferred by user.", 
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+
+    "action": {
+        "default_title": "Emkay Leads Tracker",
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "icon.png",
+            "48": "icon.png",
+            "128": "icon.png"
+        }
+          
+  },
+
+  "permissions": [
+    "tabs"
+  ]
+}
